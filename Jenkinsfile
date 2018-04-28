@@ -22,7 +22,7 @@ node {
 		}
 
 		 stage('Create Docker Image') {
-		      sh "docker build -t LoginNew:latest  -t LoginNew:latest --pull --no-cache ."
+		      sh "docker build -t loginnew:latest  -t LoginNew:latest --pull --no-cache ."
 		}
 
 }
